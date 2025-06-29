@@ -11,7 +11,6 @@ RUN npm ci --ignore-scripts
 COPY . ./
 
 ENV NODE_ENV=production
-ENV HEVY_API_KEY=your-api-key-here
 
 # Build the application
 RUN npm run build
